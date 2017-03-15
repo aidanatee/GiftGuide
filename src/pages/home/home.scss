@@ -1,0 +1,25 @@
+page-home {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c3e50), color-stop(100%,#34495e));
+  background: -webkit-linear-gradient(top, #2c3e50 0%,#34495e 100%);
+
+  .button {
+    color: #ecf0f1;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+
+    background-color: #e74c3c;
+    line-height: 20vh !important;
+    width: 50%;
+
+
+  }
+.login-container {
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+}

@@ -1,0 +1,40 @@
+<!--
+  Generated template for the Giftlist page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<section class="login-container">
+  <div class = "col text-center">
+
+    <h1> My Gift List </h1>
+
+  </div>
+  <section></section>
+<form [formGroup]="myForm" (submit)="saveForm($event)"> <ion-item>
+  <ion-label stacked>Person's name</ion-label>
+  <ion-input formControlName="field1" type="text"></ion-input> </ion-item>
+  <ion-item>
+    <ion-label stacked>Gift idea</ion-label>
+    <ion-input formControlName="field2" type="text"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label stacked>Person's name</ion-label>
+    <ion-input formControlName="field1" type="text"></ion-input> </ion-item>
+  <ion-item>
+    <ion-label stacked>Gift idea</ion-label>
+    <ion-input formControlName="field2" type="text"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label stacked>Person's name</ion-label>
+    <ion-input formControlName="field1" type="text"></ion-input> </ion-item>
+  <ion-item>
+    <ion-label stacked>Gift idea</ion-label>
+    <ion-input formControlName="field2" type="text"></ion-input>
+  </ion-item>
+
+  <button type="submit">Save Form</button> </form>
+
